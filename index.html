@@ -18,8 +18,15 @@
                 <label for="">Password</label>
                 <input type="password" class="form-control" required>
             </div>
-            <input type="button" class="btn" value="login">
+            
+            <input type="button" class="btn" value="login" onclick="navigateToRegistration()">
+             
         </form>
     </div>
 </body>
+<script>
+    function navigateToRegistration(){
+        window.location.href = "registration.html"
+    }
+</script>
 </html>
